@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CV | Your Name</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html">YOUR NAME</a>
+    <nav aria-label="Main navigation">
+      <a href="index.html">Home</a><a href="research.html">Research</a>
+      <a href="publications.html">Publications</a><a class="active" href="cv.html">CV</a><a href="contact.html">Contact</a>
+    </nav>
+  </header>
+  <main class="page">
+    <p class="eyebrow">BACKGROUND & EXPERIENCE</p>
+    <h1>Curriculum vitae</h1>
+    <p class="page-lead">For the complete record of appointments, education, funding, publications, presentations, and service, download the current CV.</p>
+    <section class="callout">
+      <h2>Download CV</h2>
+      <p>Upload your PDF to the website repository and name it <code>cv.pdf</code>. The button below will then work.</p>
+      <a class="button" href="cv.pdf">Download CV (PDF)</a>
+    </section>
+    <section class="research-item">
+      <h2>Professional appointment</h2>
+      <p><strong>Position title</strong><br>Department, institution<br>City, State</p>
+    </section>
+    <section class="research-item">
+      <h2>Education and training</h2>
+      <p>Add degrees, institutions, years, and relevant postdoctoral or clinical research training.</p>
+    </section>
+  </main>
+  <footer><span>© <span id="year"></span> Your Name</span><span>CV</span></footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

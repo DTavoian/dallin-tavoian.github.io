@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact | Your Name</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html">YOUR NAME</a>
+    <nav aria-label="Main navigation">
+      <a href="index.html">Home</a><a href="research.html">Research</a>
+      <a href="publications.html">Publications</a><a href="cv.html">CV</a><a class="active" href="contact.html">Contact</a>
+    </nav>
+  </header>
+  <main class="page">
+    <p class="eyebrow">GET IN TOUCH</p>
+    <h1>Contact</h1>
+    <p class="page-lead">For research collaborations, speaking inquiries, or questions about my work, use the contact information below.</p>
+    <section class="research-item">
+      <h2>Your Name, Credentials</h2>
+      <p>Department / Research Center<br>Institution Name<br>City, State</p>
+      <p><a href="mailto:your.email@institution.edu">your.email@institution.edu</a></p>
+      <p><a href="#">Institutional profile →</a> &nbsp; <a href="#">ORCID →</a> &nbsp; <a href="#">Google Scholar →</a></p>
+    </section>
+  </main>
+  <footer><span>© <span id="year"></span> Your Name</span><span>Contact</span></footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
