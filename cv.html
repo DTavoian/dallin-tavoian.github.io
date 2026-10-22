@@ -3,36 +3,77 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>CV | Your Name</title>
+  <title>CV | Dallin Tavoian, PhD</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header class="site-header">
-    <a class="brand" href="index.html">DALLIN TAVOIAN</a>
+    <a class="brand" href="index.html">DALLIN TAVOIAN, PHD</a>
     <nav aria-label="Main navigation">
       <a href="index.html">Home</a><a href="research.html">Research</a>
       <a href="publications.html">Publications</a><a class="active" href="cv.html">CV</a><a href="contact.html">Contact</a>
     </nav>
   </header>
   <main class="page">
-    <p class="eyebrow">BACKGROUND & EXPERIENCE</p>
+    <p class="eyebrow">BACKGROUND &amp; EXPERIENCE</p>
     <h1>Curriculum vitae</h1>
     <p class="page-lead">For the complete record of appointments, education, funding, publications, presentations, and service, download the current CV.</p>
     <section class="callout">
       <h2>Download CV</h2>
-      <p>Upload your PDF to the website repository and name it <code>cv.pdf</code>. The button below will then work.</p>
+      <p>Complete curriculum vitae in PDF format.</p>
       <a class="button" href="cv.pdf">Download CV (PDF)</a>
     </section>
+
     <section class="research-item">
-      <h2>Professional appointment</h2>
-      <p><strong>Assistant Professor</strong><br>Department of Medicine, College of Medicine - Tucson, University of Arizona<br>Tucson, AZ</p>
+      <h2>Professional appointments</h2>
+      <ul class="cv-list">
+        <li><span class="when">2026 – present</span><span><strong>Assistant Professor, Clinical Trials Program Lead</strong><br>Department of Medicine, College of Medicine – Tucson, University of Arizona</span></li>
+        <li><span class="when">2024 – 2026</span><span><strong>Clinical Operations Manager</strong><br>Aegis Consortium / Department of Medicine, University of Arizona</span></li>
+      </ul>
     </section>
+
     <section class="research-item">
       <h2>Education and training</h2>
-      <p>Add degrees, institutions, years, and relevant postdoctoral or clinical research training.</p>
+      <ul class="cv-list">
+        <li><span class="when">2021 – 2024</span><span><strong>Postdoctoral Scholar, Cardiovascular Physiology / Sleep Medicine</strong><br>University of Arizona. Advisor: Fiona Bailey, PhD</span></li>
+        <li><span class="when">2015 – 2021</span><span><strong>PhD, Translational Neuromuscular Physiology</strong><br>Ohio University. Advisor: Brian C. Clark, PhD<br>Dissertation: Tools and Technologies for Assessing, and Exercise Strategies for Promoting, Neuromuscular Function and Mobility in Aging</span></li>
+        <li><span class="when">2013 – 2015</span><span><strong>MS, Applied Physiology and Kinesiology</strong><br>Ohio University</span></li>
+        <li><span class="when">2008 – 2013</span><span><strong>BS, Exercise Physiology</strong><br>Southern Utah University</span></li>
+      </ul>
+    </section>
+
+    <section class="research-item">
+      <h2>Honors and awards</h2>
+      <ul class="cv-list">
+        <li><span class="when">2026</span><span><strong>AZ-PRIME Research Scholar</strong>, University of Arizona</span></li>
+        <li><span class="when">2024</span><span><strong>Honorable Mention, Outstanding Postdoc</strong>, University of Arizona</span></li>
+        <li><span class="when">2022</span><span><strong>Sursum Fellow</strong>, University of Arizona</span></li>
+      </ul>
+    </section>
+
+    <section class="research-item">
+      <h2>Professional service</h2>
+      <ul class="cv-list">
+        <li><span class="when">2026 – present</span><span><strong>Member</strong>, RECOVER Cycle 2 Adult Operations Committee</span></li>
+        <li><span class="when">2025 – 2026</span><span><strong>Member</strong>, RECOVER Cycle 2 Biospecimens Working Group</span></li>
+        <li><span class="when">2024 – present</span><span><strong>Member</strong>, Clinical and Translational Sciences Advisory Committee, College of Medicine</span></li>
+        <li><span class="when">2023 – present</span><span><strong>Council Member</strong>, Hypertension Trainee Advocacy Committee, American Heart Association</span></li>
+        <li><span class="when">2022 – 2023</span><span><strong>Postdoctoral Representative</strong>, Arizona Physiological Society Executive Committee</span></li>
+        <li><span class="when">2022</span><span><strong>Ad Hoc Reviewer</strong>, Arizona Biomedical Research Centre research grants</span></li>
+        <li><span class="when">2021 – 2024</span><span><strong>Executive Board Member</strong>, University of Arizona Postdoctoral Association</span></li>
+      </ul>
+    </section>
+
+    <section class="research-item">
+      <h2>Certification and memberships</h2>
+      <ul class="cv-list">
+        <li><span class="when">2013 – present</span><span><strong>Certified Athletic Trainer</strong></span></li>
+        <li><span class="when">2018 – 2024</span><span>American Heart Association</span></li>
+        <li><span class="when">2018 – 2021</span><span>American College of Sports Medicine; The Gerontological Society of America</span></li>
+      </ul>
     </section>
   </main>
-  <footer><span>© <span id="year"></span> Your Name</span><span>CV</span></footer>
+  <footer><span>© <span id="year"></span> Dallin Tavoian</span><span>CV</span></footer>
   <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>
